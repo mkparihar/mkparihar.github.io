@@ -1,16 +1,17 @@
 
 const positions = [
   {
-    company: 'Oracle',
-    position: 'Member of Technical Staff',
-    link: 'https://www.oracle.com',
-    daterange: 'Feb 2020 - Present',
+    company: 'PES University Research Foundation',
+    position: 'Student Researcher',
+    //link: 'https://www.oracle.com',
+    daterange: 'Dec 2018 - Feb 2020',
     points: [
-      'OCI network monitoring team.',
+      'Carrying out the testing and further development of the Agrificial system, researching the suitable environment and conditions for different plant species',
+      'Designing a vertical Aeroponic structure with an overhead PAR LED system' 
     ],
     subpoints:[]
   }, 
-  {
+  /*{
     company: 'Canoe Intelligence',
     position: 'Software Development/ Machine Learning Intern',
     link: 'https://www.canoesoftware.com/',
@@ -35,20 +36,20 @@ const positions = [
       
       },
   
-  },
+  },*/
    {
-    company: 'NB Investors Group LLC (Private Equity)',
-    position: 'Data Science Intern',
-    link: 'https://www.nbgroup.us/',
-    daterange: 'April 2019 - August 2019',
+    company: 'Vision Cultura',
+    position: 'Computer Vision Intern',
+    link: 'https://visioncultura.com/',
+    daterange: 'Jan 2020 - March 2020',
     points: [
-      'Procured data for medical spas and laser centers across 1000 US cities using the Yelp fusion API. ',
-      'Cleaned data in pandas and wrote algorithms in python for identifying businesses with same parent organization.',
-      'Analyzed review data for businesses and identified potential investments for medical spas and laser centers in United States',
+      'Secured an internship as a Computer Vision Engineer with VisionCultura, a start-up with the goal of revolutionizing automated agriculture.',
+      'The project dealt with building a smart home gardening system using Internet of Things Automation and Computer Vision Analysis, thus providing the most efficient solution to grow all varieties of plants. The work assigned to me entailed developing ways to segment the green plants out of the whole image, then predicting the age, fresh weight, diseases if any, and yield of the plant.'
+  
     ],
     subpoints:[]
   }, 
-  {
+ /* {
     company: 'Computational Neuroscience Group, IIT Bombay',
     position: 'Research Assistant',
     link: 'http://compneuroiitb.in/',
@@ -80,7 +81,7 @@ const positions = [
       'Computational calculations of  band structure',
     ],
     subpoints:[]
-  },
+  },*/
 ];
 
 export default positions;

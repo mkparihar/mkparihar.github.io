@@ -16,23 +16,23 @@ const validateText = (text) => {
 };
 
 const messages = [
-      'sm4548'
-  // 'hi',
-  // 'hello',
-  // 'hola',
-  // 'you-can-email-me-at-literally-anything! Really',
-  // 'well, not anything. But most things',
-  // 'like-this',
-  // 'or-this',
-  // 'but not this :(  ',
-  // 'you.can.also.email.me.with.specific.topics.like',
-  // 'just-saying-hi',
-  // 'please-work-for-us',
-  // 'help',
-  // 'admin',
-  // 'or-I-really-like-your-website',
-  // 'I\'ll-stop-distracting-you-now',
-  // 'thanks',
+     
+   'hi',
+   'hello',
+   'hola',
+   'you-can-email-me-at-literally-anything! Really',
+   'well, not anything. But most things',
+   'like-this',
+   'or-this',
+   'but not this :(  ',
+   'you.can.also.email.me.with.specific.topics.like',
+   'just-saying-hi',
+   'please-work-for-us',
+   'help',
+   'admin',
+   'or-I-really-like-your-website',
+   'I\'ll-stop-distracting-you-now',
+   'thanks',
 ];
 
 const useInterval = (callback, delay) => {
@@ -95,9 +95,9 @@ const Contact = () => {
             onMouseEnter={() => setIsActive(false)}
             onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
           >
-            <a href={validateText(message) ? `mailto:${message}@columbia.edu` : ''}>
+            <a href={validateText(message) ? `mailto:${message}@gmail.com` : ''}>
               <span>{message}</span>
-              <span>@columbia.edu</span>
+              <span>@gmail.com</span>
             </a>
           </div>
         </div>

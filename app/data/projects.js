@@ -1,6 +1,6 @@
 // TODO Add a couple lines about each project
 const data = [
-  {
+  /*{
     title: 'Building Reinforcement Learning Trading Agents',
     subtitle: 'RL Trading agents',
     link: 'https://drive.google.com/file/d/10yWpG-bSE6nUt9W38Ebbd0iojJQsnAOb/view?usp=sharing',
@@ -37,7 +37,23 @@ const data = [
     date: '2019-03-20',
     desc: 'Developed a sparse portfolio optimization algorithm, based on the Markowitz model to construct sparse porfolios.'
       + 'Implemented a trading strategy based on it and back-tested on 10 years of historical S\&P 500 data',
-  }, 
+  },*/
+  
+  
+  {
+    //title: 'Under Construction',
+    //subtitle: 'RL Trading agents',
+    //link: 'https://drive.google.com/file/d/10yWpG-bSE6nUt9W38Ebbd0iojJQsnAOb/view?usp=sharing',
+    image: '/images/projects/UC.png',
+    //date: '2018-12-20',
+    //desc: 'Simulated a virtual exchange in python which maintains an order-book and keeps track of stocks and traders data.'
+    //  + ' Implemented trading strategies based on Reinforcement Learning algorithms(DDPG and PPO) in Tensorflow. '
+    //  + ' Compared the performance of these strategies with conventional strategies like mean reversion and trend following. ',
+  },
+  
+  
+  
+   
 ];
 
 export default data;

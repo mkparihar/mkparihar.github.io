@@ -3,10 +3,10 @@
 // TODO: Add Althetic Skills, Office Skills (?)
 export const categories = [
   {
-    name: 'Data Science',
+    name: 'VLSI',
     color: '#515dd4',
   }, {
-    name: 'Databases',
+    name: 'Embedded',
     color: '#3896e2',
   }, 
   // {
@@ -14,15 +14,15 @@ export const categories = [
   //   color: '#747fff',
   // }, 
   {
-    name: 'Frameworks',
+    name: 'Signal Processing',
     color: '#64cb7b',
   }, {
-    name: 'Javascript',
+    name: 'Tools',
     color: '#d75858',
   }, {
     name: 'Languages',
-    color: '#6968b3',
-  }, {
+    color: '#40494e',
+  },/* {
     name: 'Machine Learning',
     color: '#e47272',
   }, {
@@ -37,66 +37,66 @@ export const categories = [
   }, {
     name: 'Web Development',
     color: '#cc7b94',
-  },
+  },*/
 ];
 
 export const skills = [
   {
-    title: 'Pandas',
-    compentency: 5,
-    category: ['Data Science', 'Python'],
-  },
-  {
-    title: 'Matplotib',
-    compentency: 5,
-    category: ['Data Science', 'Python'],
-  },
-  {
-    title: 'Scikit-Lean',
-    compentency: 5,
-    category: ['Data Science', 'Python', 'Machine Learning'],
-  },
-  {
-    title: 'Javascript',
+    title: 'Xilinx Vivado',
     compentency: 4,
-    category: ['Web Development', 'Languages', 'Javascript'],
+    category: ['VLSI', 'Tools'],
   },
   {
-    title: 'PHP',
-    compentency: 4,
-    category: ['Web Development', 'Languages'],
-  },
-  {
-    title: 'Node.JS',
+    title: 'Cadence Virtuoso',
     compentency: 3,
-    category: ['Web Development', 'Frameworks', 'Javascript'],
+    category: ['VLSI', 'Tools'],
   },
   {
-    title: 'React.js',
+    title: 'MentorGraphics ModelSim',
+    compentency: 4,
+    category: ['VLSI', 'Tools'],
+  },
+  {
+    title: 'Simulink',
     compentency: 3,
-    category: ['Web Development', 'Frameworks', 'Javascript'],
+    category: ['Tools'],
   },
   {
-    title: 'Vue.js',
+    title: 'Verilog',
     compentency: 4,
-    category: ['Web Development', 'Frameworks', 'Javascript'],
+    category: ['VLSI', 'Languages'],
   },
   {
-    title: 'Shell',
-    compentency: 4,
-    category: ['Tools', 'Languages'],
+    title: 'VHDL',
+    compentency: 2,
+    category: ['VLSI', 'Languages'],
   },
   {
-    title: 'Amazon Web Services',
+    title: 'RTL Design',
     compentency: 4,
-    category: ['Web Development', 'Tools'],
+    category: ['VLSI'],
+  },
+  {
+    title: 'Physical Design',
+    compentency: 3,
+    category: ['VLSI'],
+  },
+  {
+    title: 'Digital Signal Processing',
+    compentency: 4,
+    category: ['VLSI', 'Signal Processing'],
+  },
+  {
+    title: 'CMOS Analog Design',
+    compentency: 3,
+    category: ['VLSI'],
   },
   // {
   //   title: 'Heroku',
   //   compentency: 2,
   //   category: ['Web Development', 'Tools'],
   // },
-  {
+  /*{
     title: 'MongoDB',
     compentency: 4,
     category: ['Web Development', 'Databases'],
@@ -120,11 +120,11 @@ export const skills = [
     title: 'Redis',
     compentency: 3,
     category: ['Web Development', 'Databases'],
-  },
+  },*/
   {
     title: 'Matlab',
     compentency: 5,
-    category: ['Data Science', 'Languages'],
+    category: ['Signal Processing', 'Languages', 'VLSI', 'Tools'],
   },
   // {
   //   title: 'Julia',
@@ -141,11 +141,11 @@ export const skills = [
   //   compentency: 2,
   //   category: ['Web Development', 'Frameworks', 'Javascript'],
   // },
-  {
+  /*{
     title: 'Laravel(PHP)',
     compentency: 4,
     category: ['Web Development', 'Frameworks'],
-  },
+  },*/
   // {
   //   title: 'Koa',
   //   compentency: 3,
@@ -157,9 +157,9 @@ export const skills = [
   //   category: ['Web Development', 'Frameworks', 'Javascript'],
   // },
   {
-    title: 'Flask',
+    title: 'Data Visualization',
     compentency: 4,
-    category: ['Web Development', 'Frameworks', 'Python'],
+    category: ['Signal Processing'],
   },
   // {
   //   title: 'Product Development',
@@ -178,7 +178,7 @@ export const skills = [
   // },
   {
     title: 'Git',
-    compentency: 5,
+    compentency: 3,
     category: ['Tools'],
   },
   // {
@@ -198,15 +198,15 @@ export const skills = [
   // },
   {
     title: 'Numpy',
-    compentency: 5,
-    category: ['Data Science', 'Machine Learning', 'Python'],
+    compentency: 3,
+    category: ['Signal Processing'],
   },
   // {
   //   title: 'Caffe',
   //   compentency: 4,
   //   category: ['Machine Learning'],
   // },
-  {
+  /*{
     title: 'Tensorflow',
     compentency: 4,
     category: ['Data Science', 'Machine Learning', 'Python'],
@@ -215,11 +215,11 @@ export const skills = [
     title: 'pytorch',
     compentency: 5,
     category: ['Data Science', 'Machine Learning', 'Python'],
-  },
+  },*/
   {
     title: 'Jupyter',
-    compentency: 5,
-    category: ['Data Science', 'Machine Learning', 'Python'],
+    compentency: 4,
+    category: ['Signal Processing'],
   },
   // {
   //   title: 'Typescript',
@@ -227,15 +227,15 @@ export const skills = [
   //   category: ['Web Development', 'Languages'],
   // },
   {
-    title: 'HTML',
-    compentency: 5,
-    category: ['Web Development', 'Languages'],
-  },
-  {
-    title: 'CSS',
+    title: 'OpenCV',
     compentency: 4,
-    category: ['Web Development', 'Languages'],
+    category: ['Signal Processing'],
   },
+  //{
+  //  title: 'CSS',
+  //  compentency: 4,
+  //  category: ['Web Development', 'Languages'],
+  //},
   // {
   //   title: 'SASS/SCSS',
   //   compentency: 3,
@@ -248,19 +248,19 @@ export const skills = [
   // },
   {
     title: 'Python',
-    compentency: 5,
-    category: ['Languages', 'Python'],
+    compentency: 4,
+    category: ['Languages', 'Signal Processing'],
 
   },
   {
     title: 'C++',
-    compentency: 3,
-    category: ['Languages'],
+    compentency: 4,
+    category: ['Languages','Embedded'],
   },
   {
-    title: 'Java',
-    compentency: 5,
-    category: ['Languages'],
+    title: 'C',
+    compentency: 4,
+    category: ['Languages','Signal Processing','Embedded'],
   },
   // {
   //   title: 'Photoshop',
@@ -277,25 +277,25 @@ export const skills = [
   //   compentency: 2,
   //   category: ['Design'],
   // },
-  // {
-  //   title: 'Wireframing',
-  //   compentency: 4,
-  //   category: ['Design', 'Web Development'],
-  // },
   {
-    title: 'Keras',
-    compentency: 5,
-    category: ['Machine Learning', 'Python'],
+     title: 'UART',
+     compentency: 3,
+     category: ['Embedded'],
   },
-  // {
-  //   title: 'Visualization',
-  //   compentency: 4,
-  //   category: ['Data Science', 'Javascript'],
-  // },
   {
-    title: 'GraphQL',
-    compentency: 4,
-    category: ['Web Development', 'Databases'],
+    title: 'Embedded C',
+    compentency: 3,
+    category: ['Embedded'],
+  },
+  {
+     title: 'SPI',
+     compentency: 2,
+     category: ['Embedded'],
+  },
+  {
+    title: 'Assembly (ASM)',
+    compentency: 3,
+    category: ['Embedded', 'Languages'],
   },
   
   // {

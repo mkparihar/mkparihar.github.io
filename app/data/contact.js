@@ -8,22 +8,22 @@ import faEnvelope from '@fortawesome/fontawesome-free-regular/faEnvelope';
 
 const data = [
   {
-    link: 'https://github.com/sourabhmadur',
+    link: 'https://github.com/mkparihar',
     label: 'Github',
     icon: faGithub,
   },
   {
-    link: 'https://www.facebook.com/sourabh.madur',
+    link: 'https://www.facebook.com/mohit.parihar.007/',
     label: 'Facebook',
     icon: faFacebook,
   },
   {
-    link: 'https://www.instagram.com/sourabhmadur/',
+    link: 'https://www.instagram.com/mohit_parihar___/',
     label: 'Instagram',
     icon: faInstagram,
   },
   {
-    link: 'https://www.linkedin.com/in/sourabh-madur/',
+    link: 'https://www.linkedin.com/in/mohith-k-parihar-6744bb112/',
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },
@@ -38,7 +38,7 @@ const data = [
   //   icon: faTwitter,
   // },
   {
-    link: 'mailto:sm4548@columbia.edu',
+    link: 'mailto:mohitparihar1969@gmail.com',
     label: 'Email',
     icon: faEnvelope,
   },

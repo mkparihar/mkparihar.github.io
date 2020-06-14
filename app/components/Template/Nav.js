@@ -9,19 +9,17 @@ const Nav = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${BASE_PATH}/images/me_icon.jpg`} alt="" />
+        <img src={`${BASE_PATH}/images/Mohit.jpeg`} alt="" />
       </Link>
       <header>
-        <h2>Sai Sourabh Madur</h2>
-        <p><a href="mailto:sm4548@columbia.edu">sm4548@columbia.edu</a></p>
-        <p><a href="mailto:sm4548@columbia.edu">sourabhmadur@gmail.com</a></p>
+        <h2>Mohith K Parihar</h2>
+        <p><a href="mailto:mohitparihar1969@gmail.com">mohitparihar1969@gmail.com</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Sourabh. I like building things and analyzing data.
-      </p>
+      <p>Hi, I&apos;m Mohith. I like building things. Undergrad at PES Institute of Technology. Passionate about Electronics and Space. </p>
       <ul className="actions">
         <li>
           {window.location.pathname !== `${BASE_PATH}/resume` ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}

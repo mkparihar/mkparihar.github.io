@@ -1,14 +1,14 @@
 const degrees = [
   {
-    school: 'Columbia University, New York',
-    degree: 'M.S. in Electrical and Computer Engineering (with a concentration in Machine Learning and Data Driven Analysis)',
-    link: 'https://columbia.edu',
-    year: 2019,
+    school: 'PES Institute of Technology, Bengaluru',
+    degree: 'B.E. in Electronics and Communication Engineering ',
+    link: 'https://pesitsouth.pes.edu/',
+    year: 2020,
   }, {
-    school: 'Indian Institute of Technology, Bombay',
-    degree: 'Dual Degree(B.Tech+M.Tech) in Engineering Physics',
-    link: 'http://www.iitb.ac.in/',
-    year: 2018,
+    school: 'Christ Junior College, Bengaluru',
+    degree: 'Higher Secondary/ 12th Grade',
+    link: 'https://www.christjuniorcollege.in/',
+    year: 2016,
   },
 ];
 
