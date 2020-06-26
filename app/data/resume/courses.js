@@ -36,7 +36,7 @@ const courses = [
    // link: 'http://www.columbia.edu/cu/bulletin/uwb/subj/ELEN/E6883-20191-001/',
    // univerity: 'Columbia',
   },{
-    title: 'Quantum Computing and Quantum Physics fror beginners',
+    title: 'Quantum Computing and Quantum Physics for beginners',
     number: 'Udemy',
     //link: 'https://www.ee.iitb.ac.in/~bsraj/courses/ee325/',
     //univerity: 'IIT Bombay',
