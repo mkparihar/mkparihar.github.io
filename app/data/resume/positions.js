@@ -2,9 +2,20 @@
 const positions = [
   {
     company: 'Astrome Technologies',
+    position: 'Communication and Embedded Systems Engineer',
+    link: 'https://www.astrome.co/',
+    daterange: 'Sep 2020 - Ongoing',
+    points: [
+      //'Carrying out the testing and further development of the Agrificial system, researching the suitable environment and conditions for different plant species',
+//      'Designing a vertical Aeroponic structure with an overhead PAR LED system' 
+    ],
+    subpoints:[]
+  },
+  {
+    company: 'Astrome Technologies',
     position: 'Communication and Embedded Systems Intern',
     link: 'https://www.astrome.co/',
-    daterange: 'July 2020 - Ongoing',
+    daterange: 'July 2020 - Sep 2020',
     points: [
       //'Carrying out the testing and further development of the Agrificial system, researching the suitable environment and conditions for different plant species',
 //      'Designing a vertical Aeroponic structure with an overhead PAR LED system' 
